@@ -22,3 +22,15 @@
     flex-direction: row;
     justify-content: center;
 }
+
+.temp-discirp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

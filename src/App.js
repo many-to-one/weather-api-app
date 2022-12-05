@@ -41,14 +41,26 @@ function App() {
         <button onClick={searchPressed}>Search</button>
       </div>
 
-      {/* LOCATION */}
-      <p>{weather.location.name}, {weather.location.country}</p>
+      <div className='location'>
+        {/* LOCATION */}
+        <p>{weather.location.name}, {weather.location.country}</p>
+      </div>
 
-      {/* TEMPERATURE */}
-      <p>{weather.current.temp_c}°C</p>
+      <div className='temp-discirp'>
 
-      {/* CONDITION-SUNNY */}
-      <p>{weather.current.cloud}</p>
+        <div className='temp'>
+          {/* TEMPERATURE */}
+          <p>{weather.current.temp_c}°C</p>
+        </div>
+
+          {/* DESCRIPTION */}
+        <div className='description'>
+            {/* CLOUD */}
+            <p>Cloud:</p>
+            <p>{weather.current.cloud}</p>
+        </div>
+
+      </div>
 
       </div>
 
