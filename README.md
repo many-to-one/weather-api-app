@@ -1,4 +1,4 @@
-#Weather App
+# Weather App
 
 It is my first experience with React JS. 
 Simply application baces on axious requests to the RapidApi server for return the weather data.
