@@ -1,7 +1,7 @@
 # Weather App
 
 It is my first experience with React JS. 
-Simply application baces on axious requests to the RapidApi server for return the weather data.
+Simply application baced on axios requests to the RapidApi server for return the weather data.
 
 
 # Getting Started with Create React App
